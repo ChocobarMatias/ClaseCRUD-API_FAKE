@@ -1,4 +1,6 @@
-Proyecto React Vite -CRUD con API fake - Comision 1 Programacion 3 - uso basico hecho en clases
+Proyecto React Vite -CRUD con API fake - Comision 1 Programacion 3 - uso basico hecho en clases 
+
+Realizado y subido a github para que el alumno pueda ir guiando el proceso junto a los videos del drive
 
 Instalacion comando npm create vite@latest
                                            1° colocar el nombre del proyecto
