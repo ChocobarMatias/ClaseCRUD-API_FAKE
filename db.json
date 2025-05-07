@@ -1,0 +1,120 @@
+{
+  "Clientes": [
+    {
+      "id": "2",
+      "nombre": "Llanos Lucas",
+      "telefono": "987654321",
+      "direccion": "Avenida Siempre Viva 456",
+      "email": "Maria@correo.com",
+      "fecha_nacimiento": "1985-05-15",
+      "edad": 38,
+      "sexo": "Femenino"
+    },
+    {
+      "id": "3",
+      "nombre": "Carlos Sanchez",
+      "telefono": "456789123",
+      "direccion": "Boulevard de los Sueños Rotos 789",
+      "email": "Carlos@gmail.com",
+      "fecha_nacimiento": "1992-10-10",
+      "edad": 31,
+      "sexo": "Masculino"
+    },
+    {
+      "id": "4",
+      "nombre": "Ana Garcia",
+      "telefono": "321654987",
+      "direccion": "Calle de la Amargura 321",
+      "email": "Ana@gmail.com",
+      "fecha_nacimiento": "1988-03-20",
+      "edad": 35,
+      "sexo": "Femenino"
+    }
+  ],
+  "Usuarios": [
+    {
+      "id": "1",
+      "nombre": "admin",
+      "password": "admin123",
+      "rol": "admin"
+    },
+    {
+      "id": "2",
+      "nombre": "user",
+      "password": "user123",
+      "rol": "user"
+    },
+    {
+      "id": "3",
+      "nombre": "guest",
+      "password": "guest123",
+      "rol": "guest"
+    },
+    {
+      "id": "4",
+      "nombre": "pablo",
+      "password": 1234,
+      "rol": "user"
+    }
+  ],
+  "Productos": [
+    {
+      "id": "1",
+      "nombre": "Producto A",
+      "precio": 10.99,
+      "stock": 100
+    },
+    {
+      "id": "2",
+      "nombre": "Producto B",
+      "precio": 20.5,
+      "stock": 50
+    },
+    {
+      "id": "3",
+      "nombre": "Producto C",
+      "precio": 5.75,
+      "stock": 200
+    },
+    {
+      "id": "4",
+      "nombre": "Producto D",
+      "precio": 15,
+      "stock": 75
+    }
+  ],
+  "Ventas": [
+    {
+      "id": "1",
+      "cliente_id": 1,
+      "producto_id": 2,
+      "cantidad": 3,
+      "fecha": "2023-10-01",
+      "total": 61.5
+    },
+    {
+      "id": "2",
+      "cliente_id": 2,
+      "producto_id": 1,
+      "cantidad": 1,
+      "fecha": "2023-10-02",
+      "total": 10.99
+    },
+    {
+      "id": "3",
+      "cliente_id": 3,
+      "producto_id": 4,
+      "cantidad": 2,
+      "fecha": "2023-10-03",
+      "total": 30
+    },
+    {
+      "id": "4",
+      "cliente_id": 4,
+      "producto_id": 3,
+      "cantidad": 5,
+      "fecha": "2023-10-04",
+      "total": 28.75
+    }
+  ]
+}
